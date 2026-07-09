@@ -6,7 +6,8 @@
 window.TRANSLATIONS = {
   tr: {
     nav: { about: "Hakkımızda", products: "Ürünler", contacts: "İletişim" },
-    lang: { tr: "Türkçe", en: "İngilizce" },
+    /* Language names are always shown in their own (native) language. */
+    lang: { tr: "Türkçe", en: "English" },
     meta: {
       titleHome: "Ripek Su | Ana Sayfa",
       titleAbout: "Ripek Su | Hakkımızda",
@@ -102,7 +103,8 @@ window.TRANSLATIONS = {
 
   en: {
     nav: { about: "About Us", products: "Products", contacts: "Contacts" },
-    lang: { tr: "Turkish", en: "English" },
+    /* Language names are always shown in their own (native) language. */
+    lang: { tr: "Türkçe", en: "English" },
     meta: {
       titleHome: "Ripek Water | Home",
       titleAbout: "Ripek Water | About Us",

@@ -14,10 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  var path = window.location.pathname.split("/").pop() || "index.html";
+  // Extensionless URLs: "/about" and "/about.html" both map to "about".
+  var path = (window.location.pathname.split("/").pop() || "index").replace(/\.html$/, "");
 
   document.querySelectorAll(".nav-link").forEach(function (link) {
-    var href = link.getAttribute("href");
+    var href = link.getAttribute("href").replace(/\.html$/, "");
     if (href === path) {
       link.classList.add("active");
     }
