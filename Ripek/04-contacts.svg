@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1440 800" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <path id="droplet4" d="M0,-22 C11,-6 22,9 22,20 C22,32 12,42 0,42 C-12,42 -22,32 -22,20 C-22,9 -11,-6 0,-22 Z"/>
+  </defs>
+
+  <rect width="1440" height="800" fill="#F5F9FA"/>
+
+  <!-- ================= TOP BAR ================= -->
+  <g id="top-bar">
+    <rect x="0" y="0" width="1440" height="90" fill="#FFFFFF"/>
+    <line x1="0" y1="90" x2="1440" y2="90" stroke="#D7E4E8" stroke-width="1"/>
+    <g id="logo" transform="translate(80,45)">
+      <use href="#droplet4" fill="#01A8CC" transform="scale(0.6)"/>
+      <text x="24" y="7" font-size="22" font-weight="700" fill="#0B4F6C" letter-spacing="1">AQUAPURE</text>
+    </g>
+    <g id="nav" font-size="16" font-weight="600" fill="#16232B">
+      <text id="nav-about-us" x="620" y="50" text-anchor="middle">About Us</text>
+      <text id="nav-products" x="760" y="50" text-anchor="middle">Products</text>
+      <text id="nav-contacts" x="900" y="50" text-anchor="middle" fill="#01A8CC">Contacts</text>
+    </g>
+    <g id="lang-selector" transform="translate(1300,32)">
+      <rect x="-40" y="-6" width="80" height="34" rx="17" fill="#F0F6F7" stroke="#D7E4E8"/>
+      <text x="0" y="17" text-anchor="middle" font-size="14" font-weight="600" fill="#16232B">EN ▾</text>
+    </g>
+  </g>
+
+  <!-- ================= CENTERED CONTACT CONTENT ================= -->
+  <!-- Spec: this page shows ONLY a contact number and a small image -->
+  <g id="contact-content" text-anchor="middle">
+    <text x="720" y="270" font-size="13" font-weight="700" fill="#01A8CC" letter-spacing="3">CALL US</text>
+
+    <!-- small image -->
+    <g id="contact-small-image" transform="translate(720,370)">
+      <circle r="56" fill="#EAF7FA" stroke="#D7E4E8" stroke-width="2"/>
+      <path d="M-24,-8 a24,24 0 1,1 48,0 c0,20 -24,36 -24,36 s-24,-16 -24,-36 Z" fill="#0B4F6C"/>
+      <circle cy="-8" r="9" fill="#FFFFFF"/>
+    </g>
+    <text x="720" y="450" font-size="10" fill="#94A3B8">[small image — 112×112]</text>
+
+    <!-- phone number -->
+    <text x="720" y="540" font-size="48" font-weight="800" fill="#16232B" letter-spacing="1">+90 232 000 00 00</text>
+    <text x="720" y="575" font-size="16" fill="#5B6B73">Call us for orders, delivery scheduling and support</text>
+
+    <g id="tap-to-call" transform="translate(640,610)">
+      <rect width="160" height="46" rx="23" fill="#01BAEF"/>
+      <text x="80" y="29" text-anchor="middle" font-size="15" font-weight="700" fill="#062A36">Call Now</text>
+    </g>
+    <text x="720" y="690" font-size="10" fill="#94A3B8">on mobile: tel: link triggers native dialer</text>
+  </g>
+
+  <!-- ================= FOOTER ================= -->
+  <g id="footer">
+    <rect x="0" y="740" width="1440" height="60" fill="#0B4F6C"/>
+    <use href="#droplet4" fill="#6FD6E8" transform="translate(80,770) scale(0.35)"/>
+    <text x="105" y="776" font-size="13" fill="#EAF7FA">AquaPure Water — 19L Bottle Producer</text>
+    <text x="1360" y="776" font-size="12" fill="#B7D9E2" text-anchor="end">© 2026</text>
+  </g>
+
+  <text x="1430" y="20" font-size="10" fill="#94A3B8" text-anchor="end">CONTACTS — 1440×800 — minimal, number + image only</text>
+</svg>

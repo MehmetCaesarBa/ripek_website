@@ -1,0 +1,148 @@
+<svg viewBox="0 0 1440 2200" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B4F6C"/>
+      <stop offset="100%" stop-color="#01798F"/>
+    </linearGradient>
+    <path id="droplet" d="M0,-22 C11,-6 22,9 22,20 C22,32 12,42 0,42 C-12,42 -22,32 -22,20 C-22,9 -11,-6 0,-22 Z"/>
+  </defs>
+
+  <rect width="1440" height="2200" fill="#F5F9FA"/>
+
+  <!-- ================= TOP BAR ================= -->
+  <g id="top-bar">
+    <rect x="0" y="0" width="1440" height="90" fill="#FFFFFF"/>
+    <line x1="0" y1="90" x2="1440" y2="90" stroke="#D7E4E8" stroke-width="1"/>
+
+    <!-- Logo -->
+    <g id="logo" transform="translate(80,45)">
+      <use href="#droplet" fill="#01A8CC" transform="scale(0.6)"/>
+      <text x="24" y="7" font-size="22" font-weight="700" fill="#0B4F6C" letter-spacing="1">AQUAPURE</text>
+    </g>
+
+    <!-- Nav -->
+    <g id="nav" font-size="16" font-weight="600" fill="#16232B">
+      <text id="nav-about-us" x="620" y="50" text-anchor="middle" fill="#0B4F6C">About Us</text>
+      <text id="nav-products" x="760" y="50" text-anchor="middle">Products</text>
+      <text id="nav-contacts" x="900" y="50" text-anchor="middle">Contacts</text>
+    </g>
+
+    <!-- Language selector -->
+    <g id="lang-selector" transform="translate(1300,32)">
+      <rect x="-40" y="-6" width="80" height="34" rx="17" fill="#F0F6F7" stroke="#D7E4E8"/>
+      <text x="0" y="17" text-anchor="middle" font-size="14" font-weight="600" fill="#16232B">EN ▾</text>
+    </g>
+    <text x="1220" y="80" font-size="10" fill="#94A3B8" text-anchor="end">dropdown: TR / EN / AR</text>
+  </g>
+
+  <!-- ================= HERO ================= -->
+  <g id="hero">
+    <rect x="0" y="90" width="1440" height="560" fill="url(#heroGrad)"/>
+    <text x="80" y="300" font-size="46" font-weight="800" fill="#FFFFFF">Pure Water,</text>
+    <text x="80" y="360" font-size="46" font-weight="800" fill="#FFFFFF">Delivered to Your Door.</text>
+    <text x="80" y="410" font-size="18" fill="#D6F0F5" font-weight="400">19L reusable bottles &amp; dispensers for homes, offices and businesses.</text>
+
+    <g id="cta-order-now" transform="translate(80,450)">
+      <rect width="180" height="52" rx="26" fill="#01BAEF"/>
+      <text x="90" y="33" text-anchor="middle" font-size="16" font-weight="700" fill="#062A36">Order Now</text>
+    </g>
+
+    <!-- hero bottle illustration -->
+    <g id="hero-bottle-image" transform="translate(1180,240)">
+      <ellipse cx="0" cy="330" rx="120" ry="24" fill="#062A36" opacity="0.25"/>
+      <rect x="-70" y="40" width="140" height="270" rx="26" fill="#EAF7FA" stroke="#FFFFFF" stroke-width="3"/>
+      <rect x="-30" y="0" width="60" height="50" rx="10" fill="#0B4F6C"/>
+      <path d="M-70,110 Q0,90 70,110 L70,310 Q0,330 -70,310 Z" fill="#01BAEF" opacity="0.55"/>
+      <text x="0" y="200" text-anchor="middle" font-size="14" font-weight="700" fill="#0B4F6C">19L</text>
+    </g>
+    <text x="1300" y="600" font-size="10" fill="#D6F0F5" text-anchor="middle" opacity="0.8">[hero product photo]</text>
+  </g>
+
+  <!-- wave divider -->
+  <path d="M0,650 C360,710 1080,590 1440,650 L1440,650 L0,650 Z" fill="#F5F9FA"/>
+
+  <!-- ================= ABOUT US PREVIEW ================= -->
+  <g id="section-about-us-preview">
+    <rect x="80" y="720" width="560" height="380" rx="18" fill="#FFFFFF" stroke="#D7E4E8"/>
+    <g transform="translate(360,910)">
+      <circle r="70" fill="#EAF7FA"/>
+      <rect x="-45" y="-60" width="90" height="110" rx="14" fill="#0B4F6C" opacity="0.85"/>
+      <rect x="-20" y="-80" width="40" height="24" rx="6" fill="#01BAEF"/>
+    </g>
+    <text x="360" y="1150" text-anchor="middle" font-size="11" fill="#94A3B8">[factory / team photo]</text>
+
+    <text x="700" y="800" font-size="13" font-weight="700" fill="#01A8CC" letter-spacing="2">WHO WE ARE</text>
+    <text x="700" y="850" font-size="32" font-weight="800" fill="#16232B">About Us</text>
+    <text x="700" y="900" font-size="16" fill="#5B6B73">Two decades of sourcing, purifying and</text>
+    <text x="700" y="925" font-size="16" fill="#5B6B73">delivering natural spring water with</text>
+    <text x="700" y="950" font-size="16" fill="#5B6B73">certified quality, at every 19L bottle.</text>
+
+    <g id="link-learn-more-about" transform="translate(700,1000)">
+      <text font-size="16" font-weight="700" fill="#0B4F6C">Learn More</text>
+      <text x="105" font-size="16" font-weight="700" fill="#0B4F6C">→</text>
+      <line x1="0" y1="10" x2="95" y2="10" stroke="#0B4F6C" stroke-width="1.5"/>
+    </g>
+    <text x="700" y="1040" font-size="10" fill="#94A3B8">links to → about-us.html (anchor scroll target on click)</text>
+  </g>
+
+  <!-- ================= PRODUCTS PREVIEW ================= -->
+  <g id="section-products-preview">
+    <rect x="800" y="1180" width="560" height="380" rx="18" fill="#FFFFFF" stroke="#D7E4E8"/>
+    <g transform="translate(1080,1370)">
+      <circle r="70" fill="#EAF7FA"/>
+      <rect x="-30" y="-70" width="60" height="130" rx="14" fill="#01A8CC" opacity="0.85"/>
+      <rect x="-14" y="-90" width="28" height="20" rx="5" fill="#0B4F6C"/>
+      <rect x="34" y="-40" width="60" height="130" rx="14" fill="#6FD6E8" opacity="0.85"/>
+      <rect x="50" y="-60" width="28" height="20" rx="5" fill="#0B4F6C"/>
+    </g>
+    <text x="1080" y="1610" text-anchor="middle" font-size="11" fill="#94A3B8">[product lineup photo]</text>
+
+    <text x="80" y="1260" font-size="13" font-weight="700" fill="#01A8CC" letter-spacing="2">WHAT WE OFFER</text>
+    <text x="80" y="1310" font-size="32" font-weight="800" fill="#16232B">Products</text>
+    <text x="80" y="1360" font-size="16" fill="#5B6B73">19L refill bottles, hot &amp; cold</text>
+    <text x="80" y="1385" font-size="16" fill="#5B6B73">dispensers and accessories for</text>
+    <text x="80" y="1410" font-size="16" fill="#5B6B73">home and office use.</text>
+
+    <g id="link-view-products" transform="translate(80,1460)">
+      <text font-size="16" font-weight="700" fill="#0B4F6C">View Products</text>
+      <text x="130" font-size="16" font-weight="700" fill="#0B4F6C">→</text>
+      <line x1="0" y1="10" x2="120" y2="10" stroke="#0B4F6C" stroke-width="1.5"/>
+    </g>
+    <text x="80" y="1500" font-size="10" fill="#94A3B8">links to → products.html</text>
+  </g>
+
+  <!-- ================= CONTACTS PREVIEW ================= -->
+  <g id="section-contacts-preview">
+    <rect x="80" y="1660" width="560" height="380" rx="18" fill="#FFFFFF" stroke="#D7E4E8"/>
+    <g transform="translate(360,1850)">
+      <circle r="70" fill="#EAF7FA"/>
+      <path d="M-30,-10 a30,30 0 1,1 60,0 c0,25 -30,45 -30,45 s-30,-20 -30,-45 Z" fill="#0B4F6C" opacity="0.85"/>
+      <circle cx="0" cy="-10" r="12" fill="#FFFFFF"/>
+    </g>
+    <text x="360" y="2090" text-anchor="middle" font-size="11" fill="#94A3B8">[delivery / support photo]</text>
+
+    <text x="700" y="1740" font-size="13" font-weight="700" fill="#01A8CC" letter-spacing="2">GET IN TOUCH</text>
+    <text x="700" y="1790" font-size="32" font-weight="800" fill="#16232B">Contacts</text>
+    <text x="700" y="1840" font-size="16" fill="#5B6B73">Bulk orders, delivery scheduling</text>
+    <text x="700" y="1865" font-size="16" fill="#5B6B73">and customer support — reach</text>
+    <text x="700" y="1890" font-size="16" fill="#5B6B73">us directly by phone.</text>
+
+    <g id="link-contact-us" transform="translate(700,1940)">
+      <text font-size="16" font-weight="700" fill="#0B4F6C">Contact Us</text>
+      <text x="100" font-size="16" font-weight="700" fill="#0B4F6C">→</text>
+      <line x1="0" y1="10" x2="90" y2="10" stroke="#0B4F6C" stroke-width="1.5"/>
+    </g>
+    <text x="700" y="1980" font-size="10" fill="#94A3B8">links to → contacts.html</text>
+  </g>
+
+  <!-- ================= FOOTER ================= -->
+  <g id="footer">
+    <rect x="0" y="2140" width="1440" height="60" fill="#0B4F6C"/>
+    <use href="#droplet" fill="#6FD6E8" transform="translate(80,2170) scale(0.35)"/>
+    <text x="105" y="2176" font-size="13" fill="#EAF7FA">AquaPure Water — 19L Bottle Producer</text>
+    <text x="1360" y="2176" font-size="12" fill="#B7D9E2" text-anchor="end">© 2026</text>
+  </g>
+
+  <!-- annotation -->
+  <text x="1440" y="20" font-size="10" fill="#94A3B8" text-anchor="end" transform="translate(-10,0)">HOME — scroll page, 1440×2200</text>
+</svg>

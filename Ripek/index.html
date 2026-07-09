@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr" data-title-key="meta.titleHome">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ripek Su | Ana Sayfa</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2301A8CC' d='M12 2C12 2 5 10.5 5 15.5C5 19.09 8.13 22 12 22C15.87 22 19 19.09 19 15.5C19 10.5 12 2 12 2Z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= TOP BAR ================= -->
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M12 2C12 2 5 10.5 5 15.5C5 19.09 8.13 22 12 22C15.87 22 19 19.09 19 15.5C19 10.5 12 2 12 2Z" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">RIPEK</span>
+    </a>
+
+    <nav class="nav" id="mainNav">
+      <a href="about.html" class="nav-link" data-i18n="nav.about">About Us</a>
+      <a href="products.html" class="nav-link" data-i18n="nav.products">Products</a>
+      <a href="contacts.html" class="nav-link" data-i18n="nav.contacts">Contacts</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <div class="lang-selector">
+        <button class="lang-btn" id="langBtn" type="button" aria-haspopup="listbox" aria-expanded="false">
+          <span id="langBtnLabel">TR</span>
+          <svg viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-dropdown" id="langDropdown" role="listbox">
+          <li role="option" data-lang="tr" data-i18n="lang.tr">Türkçe</li>
+          <li role="option" data-lang="en" data-i18n="lang.en">İngilizce</li>
+        </ul>
+      </div>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mainNav">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero hero-home">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1><span data-i18n="home.hero.title1">Saf Su,</span><br><span data-i18n="home.hero.title2">Kapınıza Kadar.</span></h1>
+      <p data-i18n="home.hero.subtitle">Ev, ofis ve işletmeler için 19L yeniden kullanılabilir damacana ve sebiller.</p>
+      <a href="contacts.html" class="btn btn-cta" data-i18n="home.hero.cta">Şimdi Sipariş Ver</a>
+    </div>
+    <div class="hero-media">
+      <div class="image-placeholder image-placeholder--hero">
+        <span data-i18n="placeholder.heroPhoto">[kahraman ürün fotoğrafı]</span>
+      </div>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C360,70 1080,10 1440,40 L1440,80 L0,80 Z" fill="#F5F9FA"></path>
+  </svg>
+</section>
+
+<!-- ================= PREVIEW SECTIONS ================= -->
+<section class="preview-section">
+  <div class="container">
+
+    <!-- About Us preview -->
+    <div class="preview-card">
+      <div class="preview-media">
+        <div class="image-placeholder image-placeholder--round">
+          <span data-i18n="placeholder.aboutPhoto">[fabrika / ekip fotoğrafı]</span>
+        </div>
+      </div>
+      <div class="preview-content">
+        <span class="eyebrow" data-i18n="home.about.eyebrow">BİZ KİMİZ</span>
+        <h2 data-i18n="home.about.title">Hakkımızda</h2>
+        <p data-i18n="home.about.text">Yirmi yılı aşkın süredir doğal kaynak suyunu temin ediyor, arıtıyor ve sertifikalı kalitede her 19L damacanada size ulaştırıyoruz.</p>
+        <a href="about.html" class="link-arrow">
+          <span data-i18n="home.about.link">Daha Fazla</span>
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Products preview -->
+    <div class="preview-card reverse">
+      <div class="preview-media">
+        <div class="image-placeholder image-placeholder--round">
+          <span data-i18n="placeholder.productsPhoto">[ürün gamı fotoğrafı]</span>
+        </div>
+      </div>
+      <div class="preview-content">
+        <span class="eyebrow" data-i18n="home.products.eyebrow">NELER SUNUYORUZ</span>
+        <h2 data-i18n="home.products.title">Ürünler</h2>
+        <p data-i18n="home.products.text">Ev ve ofis kullanımı için 19L damacana, sıcak & soğuk sebiller ve aksesuarlar.</p>
+        <a href="products.html" class="link-arrow">
+          <span data-i18n="home.products.link">Ürünleri Görüntüle</span>
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contacts preview -->
+    <div class="preview-card">
+      <div class="preview-media">
+        <div class="image-placeholder image-placeholder--round">
+          <span data-i18n="placeholder.contactsPhoto">[teslimat / destek fotoğrafı]</span>
+        </div>
+      </div>
+      <div class="preview-content">
+        <span class="eyebrow" data-i18n="home.contacts.eyebrow">BİZE ULAŞIN</span>
+        <h2 data-i18n="home.contacts.title">İletişim</h2>
+        <p data-i18n="home.contacts.text">Toplu siparişler, teslimat planlaması ve müşteri desteği — bize doğrudan telefonla ulaşın.</p>
+        <a href="contacts.html" class="link-arrow">
+          <span data-i18n="home.contacts.link">Bize Ulaşın</span>
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C12 2 5 10.5 5 15.5C5 19.09 8.13 22 12 22C15.87 22 19 19.09 19 15.5C19 10.5 12 2 12 2Z" fill="currentColor"/></svg>
+      <span data-i18n="footer.brand">Ripek Su — 19L Damacana Üreticisi</span>
+    </div>
+    <span class="footer-copy">© 2026</span>
+  </div>
+</footer>
+
+<script src="js/translations.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

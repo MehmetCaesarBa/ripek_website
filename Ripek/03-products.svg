@@ -1,0 +1,140 @@
+<svg viewBox="0 0 1440 1360" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="heroGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B4F6C"/>
+      <stop offset="100%" stop-color="#01798F"/>
+    </linearGradient>
+    <path id="droplet3" d="M0,-22 C11,-6 22,9 22,20 C22,32 12,42 0,42 C-12,42 -22,32 -22,20 C-22,9 -11,-6 0,-22 Z"/>
+  </defs>
+
+  <rect width="1440" height="1360" fill="#F5F9FA"/>
+
+  <!-- ================= TOP BAR ================= -->
+  <g id="top-bar">
+    <rect x="0" y="0" width="1440" height="90" fill="#FFFFFF"/>
+    <line x1="0" y1="90" x2="1440" y2="90" stroke="#D7E4E8" stroke-width="1"/>
+    <g id="logo" transform="translate(80,45)">
+      <use href="#droplet3" fill="#01A8CC" transform="scale(0.6)"/>
+      <text x="24" y="7" font-size="22" font-weight="700" fill="#0B4F6C" letter-spacing="1">AQUAPURE</text>
+    </g>
+    <g id="nav" font-size="16" font-weight="600" fill="#16232B">
+      <text id="nav-about-us" x="620" y="50" text-anchor="middle">About Us</text>
+      <text id="nav-products" x="760" y="50" text-anchor="middle" fill="#01A8CC">Products</text>
+      <text id="nav-contacts" x="900" y="50" text-anchor="middle">Contacts</text>
+    </g>
+    <g id="lang-selector" transform="translate(1300,32)">
+      <rect x="-40" y="-6" width="80" height="34" rx="17" fill="#F0F6F7" stroke="#D7E4E8"/>
+      <text x="0" y="17" text-anchor="middle" font-size="14" font-weight="600" fill="#16232B">EN ▾</text>
+    </g>
+  </g>
+
+  <!-- ================= HERO ================= -->
+  <g id="hero">
+    <rect x="0" y="90" width="1440" height="200" fill="url(#heroGrad3)"/>
+    <text x="80" y="190" font-size="13" font-weight="700" fill="#6FD6E8" letter-spacing="3">CATALOG</text>
+    <text x="80" y="240" font-size="42" font-weight="800" fill="#FFFFFF">Our Products</text>
+    <text x="80" y="270" font-size="16" fill="#D6F0F5">Quality water, every size — for home, office and business.</text>
+  </g>
+  <path d="M0,290 C360,340 1080,250 1440,290 L1440,290 L0,290 Z" fill="#F5F9FA"/>
+
+  <!-- ================= PRODUCT GRID ================= -->
+  <g id="product-grid">
+    <!-- card template repeated x6, 3 cols x 2 rows -->
+
+    <!-- Card 1 -->
+    <g id="product-card-1" transform="translate(80,340)">
+      <rect width="400" height="440" rx="16" fill="#FFFFFF" stroke="#D7E4E8"/>
+      <g transform="translate(200,190)">
+        <ellipse cx="0" cy="115" rx="70" ry="14" fill="#062A36" opacity="0.12"/>
+        <rect x="-45" y="-70" width="90" height="180" rx="18" fill="#EAF7FA" stroke="#01A8CC" stroke-width="2"/>
+        <rect x="-20" y="-95" width="40" height="30" rx="8" fill="#0B4F6C"/>
+        <path d="M-45,-10 Q0,-25 45,-10 L45,105 Q0,120 -45,105 Z" fill="#01BAEF" opacity="0.55"/>
+      </g>
+      <text x="200" y="360" text-anchor="middle" font-size="18" font-weight="700" fill="#16232B">19L Refill Bottle</text>
+      <text x="200" y="385" text-anchor="middle" font-size="13" fill="#5B6B73">BPA-free · Reusable · Standard cap</text>
+      <text x="200" y="415" text-anchor="middle" font-size="10" fill="#94A3B8">[product photo]</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g id="product-card-2" transform="translate(520,340)">
+      <rect width="400" height="440" rx="16" fill="#FFFFFF" stroke="#D7E4E8"/>
+      <g transform="translate(200,190)">
+        <ellipse cx="0" cy="115" rx="70" ry="14" fill="#062A36" opacity="0.12"/>
+        <rect x="-45" y="-70" width="90" height="180" rx="18" fill="#EAF7FA" stroke="#01A8CC" stroke-width="2"/>
+        <rect x="-20" y="-95" width="40" height="30" rx="8" fill="#0B4F6C"/>
+        <path d="M-45,-10 Q0,-25 45,-10 L45,105 Q0,120 -45,105 Z" fill="#01BAEF" opacity="0.55"/>
+        <path d="M60,-30 a35,35 0 0,1 0,70" fill="none" stroke="#0B4F6C" stroke-width="8" stroke-linecap="round"/>
+      </g>
+      <text x="200" y="360" text-anchor="middle" font-size="18" font-weight="700" fill="#16232B">19L Bottle with Handle</text>
+      <text x="200" y="385" text-anchor="middle" font-size="13" fill="#5B6B73">Ergonomic carry handle</text>
+      <text x="200" y="415" text-anchor="middle" font-size="10" fill="#94A3B8">[product photo]</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g id="product-card-3" transform="translate(960,340)">
+      <rect width="400" height="440" rx="16" fill="#FFFFFF" stroke="#D7E4E8"/>
+      <g transform="translate(200,190)">
+        <ellipse cx="0" cy="115" rx="80" ry="14" fill="#062A36" opacity="0.12"/>
+        <rect x="-55" y="-100" width="110" height="215" rx="14" fill="#EAF7FA" stroke="#0B4F6C" stroke-width="2"/>
+        <rect x="-55" y="-30" width="110" height="60" fill="#01A8CC" opacity="0.3"/>
+        <circle cx="-25" cy="0" r="8" fill="#0B4F6C"/>
+        <circle cx="25" cy="0" r="8" fill="#01BAEF"/>
+      </g>
+      <text x="200" y="360" text-anchor="middle" font-size="18" font-weight="700" fill="#16232B">Dispenser — Hot &amp; Cold</text>
+      <text x="200" y="385" text-anchor="middle" font-size="13" fill="#5B6B73">Freestanding, dual tap</text>
+      <text x="200" y="415" text-anchor="middle" font-size="10" fill="#94A3B8">[product photo]</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g id="product-card-4" transform="translate(80,820)">
+      <rect width="400" height="440" rx="16" fill="#FFFFFF" stroke="#D7E4E8"/>
+      <g transform="translate(200,190)">
+        <ellipse cx="0" cy="115" rx="80" ry="14" fill="#062A36" opacity="0.12"/>
+        <rect x="-55" y="-100" width="110" height="215" rx="14" fill="#EAF7FA" stroke="#0B4F6C" stroke-width="2"/>
+        <rect x="-55" y="-30" width="110" height="60" fill="#6FD6E8" opacity="0.4"/>
+        <circle cx="0" cy="0" r="8" fill="#0B4F6C"/>
+      </g>
+      <text x="200" y="360" text-anchor="middle" font-size="18" font-weight="700" fill="#16232B">Dispenser — Cold Only</text>
+      <text x="200" y="385" text-anchor="middle" font-size="13" fill="#5B6B73">Compact, single tap</text>
+      <text x="200" y="415" text-anchor="middle" font-size="10" fill="#94A3B8">[product photo]</text>
+    </g>
+
+    <!-- Card 5 -->
+    <g id="product-card-5" transform="translate(520,820)">
+      <rect width="400" height="440" rx="16" fill="#FFFFFF" stroke="#D7E4E8"/>
+      <g transform="translate(200,190)">
+        <circle r="60" fill="#EAF7FA" stroke="#01A8CC" stroke-width="2"/>
+        <rect x="-30" y="-14" width="60" height="28" rx="8" fill="#0B4F6C"/>
+      </g>
+      <text x="200" y="360" text-anchor="middle" font-size="18" font-weight="700" fill="#16232B">Bottle Cap Set</text>
+      <text x="200" y="385" text-anchor="middle" font-size="13" fill="#5B6B73">Pack of 6, leak-proof seal</text>
+      <text x="200" y="415" text-anchor="middle" font-size="10" fill="#94A3B8">[product photo]</text>
+    </g>
+
+    <!-- Card 6 -->
+    <g id="product-card-6" transform="translate(960,820)">
+      <rect width="400" height="440" rx="16" fill="#FFFFFF" stroke="#D7E4E8"/>
+      <g transform="translate(200,190)">
+        <rect x="-90" y="-50" width="180" height="120" rx="10" fill="none" stroke="#0B4F6C" stroke-width="4"/>
+        <line x1="-30" y1="-50" x2="-30" y2="70" stroke="#0B4F6C" stroke-width="3"/>
+        <line x1="30" y1="-50" x2="30" y2="70" stroke="#0B4F6C" stroke-width="3"/>
+        <line x1="-90" y1="10" x2="90" y2="10" stroke="#0B4F6C" stroke-width="3"/>
+      </g>
+      <text x="200" y="360" text-anchor="middle" font-size="18" font-weight="700" fill="#16232B">Bottle Crate (12-pack)</text>
+      <text x="200" y="385" text-anchor="middle" font-size="13" fill="#5B6B73">Stackable transport crate</text>
+      <text x="200" y="415" text-anchor="middle" font-size="10" fill="#94A3B8">[product photo]</text>
+    </g>
+  </g>
+
+  <text x="80" y="1300" font-size="10" fill="#94A3B8">grid: each card = image + product name + one-line spec; CMS-driven, repeatable component</text>
+
+  <!-- ================= FOOTER ================= -->
+  <g id="footer">
+    <rect x="0" y="1300" width="1440" height="60" fill="#0B4F6C"/>
+    <use href="#droplet3" fill="#6FD6E8" transform="translate(80,1330) scale(0.35)"/>
+    <text x="105" y="1336" font-size="13" fill="#EAF7FA">AquaPure Water — 19L Bottle Producer</text>
+    <text x="1360" y="1336" font-size="12" fill="#B7D9E2" text-anchor="end">© 2026</text>
+  </g>
+
+  <text x="1430" y="20" font-size="10" fill="#94A3B8" text-anchor="end">PRODUCTS — 1440×1360</text>
+</svg>
